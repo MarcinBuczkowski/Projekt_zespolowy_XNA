@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projekt zespolowy XNA", "Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA.csproj", "{E3DE5AD1-345F-48F8-AF5F-BC1204E0178B}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Projekt zespolowy XNAContent", "Projekt zespolowy XNA\Projekt zespolowy XNAContent\Projekt zespolowy XNAContent.contentproj", "{3B910859-5091-4D8E-AC3E-5AF5A9A04841}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3DE5AD1-345F-48F8-AF5F-BC1204E0178B}.Debug|x86.ActiveCfg = Debug|x86
+		{E3DE5AD1-345F-48F8-AF5F-BC1204E0178B}.Debug|x86.Build.0 = Debug|x86
+		{E3DE5AD1-345F-48F8-AF5F-BC1204E0178B}.Release|x86.ActiveCfg = Release|x86
+		{E3DE5AD1-345F-48F8-AF5F-BC1204E0178B}.Release|x86.Build.0 = Release|x86
+		{3B910859-5091-4D8E-AC3E-5AF5A9A04841}.Debug|x86.ActiveCfg = Debug|x86
+		{3B910859-5091-4D8E-AC3E-5AF5A9A04841}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
