@@ -42,13 +42,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="auto.png">
-      <Name>auto</Name>
+    <Compile Include="background.png">
+      <Name>background</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="background.png">
-      <Name>background</Name>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="auto.png">
+      <Name>auto</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
