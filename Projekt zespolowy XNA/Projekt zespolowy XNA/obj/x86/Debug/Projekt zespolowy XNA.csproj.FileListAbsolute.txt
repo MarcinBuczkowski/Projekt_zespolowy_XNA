@@ -1,0 +1,50 @@
+C:\Users\Marcin Buczkowski\Desktop\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\auto.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\background.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Projekt zespolowy XNA.exe
+C:\Users\Marcin Buczkowski\Desktop\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Projekt zespolowy XNA.pdb
+C:\Users\Marcin Buczkowski\Desktop\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Projekt zespolowy XNA.csprojResolveAssemblyReference.cache
+C:\Users\Marcin Buczkowski\Desktop\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Marcin Buczkowski\Desktop\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Projekt zespolowy XNA.exe
+C:\Users\Marcin Buczkowski\Desktop\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Projekt zespolowy XNA.pdb
+C:\Users\Marcin Buczkowski\Desktop\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\background.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\auto.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Projekt zespolowy XNA.exe
+C:\Users\Marcin Buczkowski\Desktop\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Projekt zespolowy XNA.pdb
+C:\Users\Marcin Buczkowski\Desktop\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Projekt zespolowy XNA.csprojResolveAssemblyReference.cache
+C:\Users\Marcin Buczkowski\Desktop\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Marcin Buczkowski\Desktop\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Projekt zespolowy XNA.exe
+C:\Users\Marcin Buczkowski\Desktop\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Projekt zespolowy XNA.pdb
+C:\Users\Marcin Buczkowski\Desktop\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\auto2.xnb
+C:\Users\Damian\Downloads\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\background.xnb
+C:\Users\Damian\Downloads\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\auto.xnb
+C:\Users\Damian\Downloads\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\auto2.xnb
+C:\Users\Damian\Downloads\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Projekt zespolowy XNA.exe
+C:\Users\Damian\Downloads\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Projekt zespolowy XNA.pdb
+C:\Users\Damian\Downloads\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Projekt zespolowy XNA.csprojResolveAssemblyReference.cache
+C:\Users\Damian\Downloads\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Damian\Downloads\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Projekt zespolowy XNA.exe
+C:\Users\Damian\Downloads\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Projekt zespolowy XNA.pdb
+C:\Users\Damian\Downloads\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\droga.xnb
+C:\Users\Damian\Downloads\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\trasa.xnb
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\background.xnb
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\auto.xnb
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\auto2.xnb
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\droga.xnb
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\trasa.xnb
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Projekt zespolowy XNA.exe
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Projekt zespolowy XNA.pdb
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Projekt zespolowy XNA.csprojResolveAssemblyReference.cache
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Projekt zespolowy XNA.exe
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Projekt zespolowy XNA.pdb
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\background.xnb
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\auto.xnb
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\auto2.xnb
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\droga.xnb
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\trasa.xnb
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Projekt zespolowy XNA.exe
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Projekt zespolowy XNA.pdb
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Projekt zespolowy XNA.csprojResolveAssemblyReference.cache
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Projekt zespolowy XNA.exe
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Projekt zespolowy XNA.pdb

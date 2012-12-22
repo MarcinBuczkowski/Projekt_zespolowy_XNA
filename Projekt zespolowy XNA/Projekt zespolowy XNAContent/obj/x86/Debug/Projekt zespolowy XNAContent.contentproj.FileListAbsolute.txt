@@ -1,0 +1,5 @@
+C:\Users\Marcin Buczkowski\Desktop\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNAContent\obj\x86\Debug\Projekt zespolowy XNAContent.contentprojResolveAssemblyReference.cache
+C:\Users\Marcin Buczkowski\Desktop\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNAContent\obj\x86\Debug\Projekt zespolowy XNAContent.contentprojResolveAssemblyReference.cache
+C:\Users\Damian\Downloads\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNAContent\obj\x86\Debug\Projekt zespolowy XNAContent.contentprojResolveAssemblyReference.cache
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNAContent\obj\x86\Debug\Projekt zespolowy XNAContent.contentprojResolveAssemblyReference.cache
+C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNAContent\obj\x86\Debug\Projekt zespolowy XNAContent.contentprojResolveAssemblyReference.cache
