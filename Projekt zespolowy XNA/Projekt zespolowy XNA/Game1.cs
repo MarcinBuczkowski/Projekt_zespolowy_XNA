@@ -13,37 +13,40 @@ namespace Projekt_zespolowy_XNA
 {
     public class Game1 : Microsoft.Xna.Framework.Game
     {
-        GraphicsDeviceManager graphics;
-        SpriteBatch spriteBatch;
+        private GraphicsDeviceManager graphics;
+        private SpriteBatch spriteBatch;
 
         // To tekstura, któr¹ mo¿emy wyrenderowaæ
-        Texture2D spriteTexture;
-        public Rectangle spriteRectangle;
+        private Texture2D playerTexture;
+        public  Rectangle playerRectangle;
 
-        Texture2D autoTexture;
-        Rectangle autoRectangle;
-        Rectangle MapRectangle;
+        private AI firstAi = new AI();
+        private Color[] firstAiTextureData;
+        private Vector2 firstAiOrigin;
+        private Texture2D firstAiTexture;
+        private Rectangle firstAiRectangle;
 
-        Color[] spriteTextureData;
-        Color[] autoTextureData;
-        Color[] MapTexturedata;
+        private Rectangle mapRectangle;
+
+        private Color[] playerTextureData;
+        private Color[] mapTextureData;
 
         //Centralna czêœæ obrazka
-        Vector2 spriteOrigin;
+        private Vector2 playerOrigin;
+        public  Vector2 playerPosition;
+        private float   playerRotation;
+        private Vector2 playerVelocity;
 
-        public Vector2 spritePosition;
-        Vector2 AiCarPosition;
-        float rotation;
-
-        Vector2 spriteVelocity;
         //Ustalenie prêdkoœci pojazdu
-        const float tangentialVelocity = 7f;
+        private const float playerTangentialVelocity = 7f;
         //Ustalenie d³ugoœci poœlizgu do zatrzymania
-        float friction = 0.1f;
+        private float friction = 0.1f;
 
-        Camera camera;
-        Texture2D backgroundTexture;
-        Vector2 backgroundPosition;
+        private Camera camera;
+        private Texture2D backgroundTexture;
+        private Vector2 backgroundPosition;
+
+        private Boolean playerCollision = false;
 
         public Game1()
         {
@@ -59,13 +62,9 @@ namespace Projekt_zespolowy_XNA
         /// related content.  Calling base.Initialize will enumerate through any components
         /// and initialize them as well.
         /// </summary>
-
-
-
         protected override void Initialize()
         {
             camera = new Camera(GraphicsDevice.Viewport);
-
 
             base.Initialize();
         }
@@ -76,9 +75,6 @@ namespace Projekt_zespolowy_XNA
         /// LoadContent will be called once per game and is the place to load
         /// all of your content.
         /// </summary>
-
-
-
         protected override void LoadContent()
         {
 
@@ -86,26 +82,24 @@ namespace Projekt_zespolowy_XNA
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             //Wczytywanie auta i t³a
-            spriteTexture = Content.Load<Texture2D>("auto");
+            playerTexture = Content.Load<Texture2D>("auto");
             //Pozycja samochodu na trasie
-            spritePosition = new Vector2(300, 295);
+            playerPosition = new Vector2(300, 295);
 
-            autoTexture = Content.Load<Texture2D>("auto2");
-            AiCarPosition = new Vector2(600, 295);
-            //Pozycja samochodu na trasie
-           
+            firstAiTexture = Content.Load<Texture2D>("przeciwnik");
 
             backgroundTexture = Content.Load<Texture2D>("trasa");
             //Po³o¿enie wyœwietlanej trasy
             backgroundPosition = new Vector2(-400, 0);
-            MapTexturedata = new Color[backgroundTexture.Width*backgroundTexture.Height];
-            backgroundTexture.GetData(MapTexturedata);
 
-            spriteTextureData = new Color[spriteTexture.Width * spriteTexture.Height];
-            spriteTexture.GetData(spriteTextureData);
+            mapTextureData = new Color[backgroundTexture.Width * backgroundTexture.Height];
+            backgroundTexture.GetData(mapTextureData);
 
-            autoTextureData = new Color[autoTexture.Width * autoTexture.Height];
-            autoTexture.GetData(autoTextureData);
+            playerTextureData = new Color[playerTexture.Width * playerTexture.Height];
+            playerTexture.GetData(playerTextureData);
+
+            firstAiTextureData = new Color[firstAiTexture.Width * firstAiTexture.Height];
+            firstAiTexture.GetData(firstAiTextureData);
         }
 
 
@@ -114,83 +108,94 @@ namespace Projekt_zespolowy_XNA
         /// UnloadContent will be called once per game and is the place to unload
         /// all content.
         /// </summary>
-
         protected override void UnloadContent()
         {
-            autoTexture.Dispose();
-            spriteTexture.Dispose();
+            firstAiTexture.Dispose();
+            playerTexture.Dispose();
             backgroundTexture.Dispose();
             // TODO: Unload any non ContentManager content here
         }
+
+
 
         /// <summary>
         /// Allows the game to run logic such as updating the world,
         /// checking for collisions, gathering input, and playing audio.
         /// </summary>
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
-
-
-
         protected override void Update(GameTime gameTime)
         {
-
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
+            {
                 this.Exit();
+            }
 
-            Matrix MapTransform = Matrix.CreateTranslation(new Vector3(backgroundPosition, 0.0f));
+            Matrix mapTransform = Matrix.CreateTranslation(new Vector3(backgroundPosition, 0.0f));
 
-            Matrix AiCarTransform =
-                Matrix.CreateTranslation(new Vector3(AiCarPosition, 0.0f));
+            Matrix firstAiTransform = Matrix.CreateTranslation(new Vector3(-firstAiOrigin, 0.0f)) *
+                                      Matrix.CreateRotationZ(firstAi.rotation) *
+                                      Matrix.CreateTranslation(new Vector3(firstAi.position, 0.0f));
 
-            Matrix UserCarTransform =
-                    Matrix.CreateTranslation(new Vector3(-spriteOrigin, 0.0f)) *
-                // Matrix.CreateScale(block.Scale) *  would go here
-                    Matrix.CreateRotationZ(rotation) *
-                    Matrix.CreateTranslation(new Vector3(spritePosition, 0.0f));
+            Matrix playerTransform = Matrix.CreateTranslation(new Vector3(-playerOrigin, 0.0f)) *
+                                     Matrix.CreateRotationZ(playerRotation) *
+                                     Matrix.CreateTranslation(new Vector3(playerPosition, 0.0f));
 
-            spriteRectangle = Collisions.CalculateBoundingRectangle(
-                         new Rectangle(0, 0, spriteTexture.Width, spriteTexture.Height),
-                         UserCarTransform);
+            playerRectangle = Collisions.CalculateBoundingRectangle(new Rectangle(0, 0, playerTexture.Width, playerTexture.Height), playerTransform);
+            playerOrigin = new Vector2(playerRectangle.Width / 2, playerRectangle.Height / 2);
 
-            autoRectangle = new Rectangle((int)AiCarPosition.X, (int)AiCarPosition.Y, autoTexture.Width, autoTexture.Height);
+            firstAiRectangle = Collisions.CalculateBoundingRectangle(new Rectangle(0, 0, firstAiTexture.Width, firstAiTexture.Height), firstAiTransform);
+            firstAiOrigin = new Vector2(firstAiRectangle.Width / 2, firstAiRectangle.Height / 2);
 
-            MapRectangle = new Rectangle((int)backgroundPosition.X, (int)backgroundPosition.Y, backgroundTexture.Width, backgroundTexture.Height);
-
-            spriteOrigin = new Vector2(spriteRectangle.Width / 2, spriteRectangle.Height / 2);
+            mapRectangle = new Rectangle((int)backgroundPosition.X, (int)backgroundPosition.Y, backgroundTexture.Width, backgroundTexture.Height);
 
             //Poruszanie do przodu uwzglêdniaj¹c rotacjê
-            if (Keyboard.GetState().IsKeyDown(Keys.Up))
+            if (this.playerCollision)
             {
-                //Obroty samochodu
-                if (Keyboard.GetState().IsKeyDown(Keys.Right)) rotation += 0.05f;
-                if (Keyboard.GetState().IsKeyDown(Keys.Left)) rotation -= 0.05f;
-                spriteVelocity.X = (float)Math.Cos(rotation) * tangentialVelocity;
-                spriteVelocity.Y = (float)Math.Sin(rotation) * tangentialVelocity;
-            }
-            else if (spriteVelocity != Vector2.Zero)
-            {
-                float i = spriteVelocity.X;
-                float j = spriteVelocity.Y;
-
-                if (spriteVelocity != Vector2.Zero) spriteVelocity *= 1 - friction;
-            }
-            if (autoRectangle.Intersects(spriteRectangle))
-            {
-                if (Collisions.IntersectPixels(AiCarTransform, autoTexture.Width, autoTexture.Height, autoTextureData, UserCarTransform, spriteTexture.Width, spriteTexture.Height, spriteTextureData))
+                if (playerVelocity.X > -0.5 && playerVelocity.X < 0.5 && playerVelocity.Y > -0.5 && playerVelocity.Y < 0.5)
                 {
-                    spriteVelocity.X = -spriteVelocity.X;
-                    spriteVelocity.Y = -spriteVelocity.Y;
+                    this.playerCollision = false;
+                }
+                else
+                {
+                    playerVelocity *= 1 - friction;
                 }
             }
-           
-            if (Collisions.Intersect(UserCarTransform, spriteTexture.Width, spriteTexture.Height, spriteTextureData, MapTransform, backgroundTexture.Width, backgroundTexture.Height, MapTexturedata))
+            else if (Keyboard.GetState().IsKeyDown(Keys.Up))
             {
-                spriteVelocity.X = -spriteVelocity.X;
-                spriteVelocity.Y = -spriteVelocity.Y;
+                //Obroty samochodu
+                if (Keyboard.GetState().IsKeyDown(Keys.Right)) playerRotation += 0.05f;
+                if (Keyboard.GetState().IsKeyDown(Keys.Left)) playerRotation -= 0.05f;
+                playerVelocity.X = (float)Math.Cos(playerRotation) * playerTangentialVelocity;
+                playerVelocity.Y = (float)Math.Sin(playerRotation) * playerTangentialVelocity;
+            }
+            else if (playerVelocity != Vector2.Zero)
+            {
+                playerVelocity *= 1 - friction;
             }
 
-            spritePosition = (spriteVelocity + spritePosition);
-            camera.Update(gameTime, this);
+            // Kolizja z przeciwnikiem
+            if (firstAiRectangle.Intersects(playerRectangle))
+            {
+                if (Collisions.IntersectPixels(firstAiTransform, firstAiTexture.Width, firstAiTexture.Height, firstAiTextureData, playerTransform, playerTexture.Width, playerTexture.Height, playerTextureData))
+                {
+                    playerVelocity.X = -playerVelocity.X;
+                    playerVelocity.Y = -playerVelocity.Y;
+                    this.playerCollision = true;
+                }
+            }
+
+            if (Collisions.Intersect(playerTransform, playerTexture.Width, playerTexture.Height, playerTextureData, mapTransform, backgroundTexture.Width, backgroundTexture.Height, mapTextureData))
+            {
+                playerVelocity.X = -playerVelocity.X;
+                playerVelocity.Y = -playerVelocity.Y;
+                this.playerCollision = true;
+            }
+
+            playerPosition = (playerVelocity + playerPosition);
+
+            firstAi.CalculatePosition(backgroundTexture);
+
+            camera.Update(gameTime, playerPosition, playerRectangle);
             base.Update(gameTime);
         }
 
@@ -204,9 +209,9 @@ namespace Projekt_zespolowy_XNA
                 camera.transform);
 
             spriteBatch.Draw(backgroundTexture, backgroundPosition, Color.White);
-            spriteBatch.Draw(autoTexture, autoRectangle, Color.White);
+            spriteBatch.Draw(firstAiTexture, firstAi.position, null, Color.White, firstAi.rotation, firstAiOrigin, 1f, SpriteEffects.None, 0);
             //Rysowanie tekstury i ustawianie koloru na transparentny, rotacji, centralna czêœæ obrazka, bez efektów
-            spriteBatch.Draw(spriteTexture, spritePosition, null, Color.White, rotation, spriteOrigin, 1f, SpriteEffects.None, 0);
+            spriteBatch.Draw(playerTexture, playerPosition, null, Color.White, playerRotation, playerOrigin, 1f, SpriteEffects.None, 0);
             spriteBatch.End();
 
             base.Draw(gameTime);

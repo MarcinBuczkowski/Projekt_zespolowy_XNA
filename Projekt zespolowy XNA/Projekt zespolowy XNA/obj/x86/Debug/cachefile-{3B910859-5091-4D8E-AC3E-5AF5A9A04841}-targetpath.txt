@@ -3,3 +3,6 @@ Content\auto.xnb
 Content\auto2.xnb
 Content\droga.xnb
 Content\trasa.xnb
+Content\przeciwnik.xnb
+Content\przeciwnik2.xnb
+Content\przeciwnik3.xnb

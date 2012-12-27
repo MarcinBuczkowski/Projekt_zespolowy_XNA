@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\background.xnb</Output>
-      <Time>2012-11-23T15:45:13.344694+01:00</Time>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\background.xnb</Output>
+      <Time>2012-12-23T14:09:08.4039611+01:00</Time>
     </Item>
     <Item>
       <Source>auto.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\auto.xnb</Output>
-      <Time>2012-11-23T15:48:39.9695414+01:00</Time>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\auto.xnb</Output>
+      <Time>2012-12-23T14:09:08.3949606+01:00</Time>
     </Item>
     <Item>
       <Source>auto2.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\auto2.xnb</Output>
-      <Time>2012-12-09T12:57:04.1378049+01:00</Time>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\auto2.xnb</Output>
+      <Time>2012-12-23T14:09:08.3959607+01:00</Time>
     </Item>
     <Item>
       <Source>droga.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\droga.xnb</Output>
-      <Time>2012-12-15T17:47:08.2959435+01:00</Time>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\droga.xnb</Output>
+      <Time>2012-12-23T14:09:08.4139617+01:00</Time>
     </Item>
     <Item>
       <Source>trasa.png</Source>
@@ -43,8 +43,35 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\trasa.xnb</Output>
-      <Time>2012-12-16T12:40:12.8080491+01:00</Time>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\trasa.xnb</Output>
+      <Time>2012-12-23T14:09:08.435963+01:00</Time>
+    </Item>
+    <Item>
+      <Source>przeciwnik.png</Source>
+      <Name>przeciwnik</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\przeciwnik.xnb</Output>
+      <Time>2012-12-27T23:05:26.9577721+01:00</Time>
+    </Item>
+    <Item>
+      <Source>przeciwnik2.png</Source>
+      <Name>przeciwnik2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\przeciwnik2.xnb</Output>
+      <Time>2012-12-27T23:06:32.1184991+01:00</Time>
+    </Item>
+    <Item>
+      <Source>przeciwnik3.png</Source>
+      <Name>przeciwnik3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\przeciwnik3.xnb</Output>
+      <Time>2012-12-27T23:06:32.1445006+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -52,39 +79,39 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNAContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNAContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNAContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNAContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
         <Value>2010-08-23T13:41:18+02:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
         <Value>2010-08-23T13:41:18+02:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
         <Value>2010-08-23T13:41:18+02:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
         <Value>2010-08-23T13:41:18+02:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
         <Value>2010-08-23T13:41:18+02:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
         <Value>2010-08-23T13:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2012-11-16T18:41:20.4956748+01:00</Value>
+        <Value>2012-12-09T18:32:26.5159683+01:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
