@@ -6,3 +6,4 @@ Content\trasa.xnb
 Content\przeciwnik.xnb
 Content\przeciwnik2.xnb
 Content\przeciwnik3.xnb
+Content\SpriteFont.xnb

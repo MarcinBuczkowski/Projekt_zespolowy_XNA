@@ -62,3 +62,4 @@ C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Proj
 C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\przeciwnik.xnb
 C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\przeciwnik2.xnb
 C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\przeciwnik3.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\SpriteFont.xnb

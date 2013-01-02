@@ -73,6 +73,15 @@
       <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\przeciwnik3.xnb</Output>
       <Time>2012-12-27T23:06:32.1445006+01:00</Time>
     </Item>
+    <Item>
+      <Source>SpriteFont.spritefont</Source>
+      <Name>SpriteFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\SpriteFont.xnb</Output>
+      <Time>2013-01-02T20:23:28.0844508+01:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

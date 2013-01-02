@@ -48,6 +48,12 @@ namespace Projekt_zespolowy_XNA
 
         private Boolean playerCollision = false;
 
+        private SpriteFont font;
+        private int lap = 0;
+        private int maxlap = 3;
+        private bool lapChange = false;
+        private DateTime lastLapChange = DateTime.Now.Subtract(TimeSpan.FromMinutes(10));
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -100,6 +106,8 @@ namespace Projekt_zespolowy_XNA
 
             firstAiTextureData = new Color[firstAiTexture.Width * firstAiTexture.Height];
             firstAiTexture.GetData(firstAiTextureData);
+
+            font = Content.Load<SpriteFont> ("SpriteFont");
         }
 
 
@@ -193,6 +201,24 @@ namespace Projekt_zespolowy_XNA
 
             playerPosition = (playerVelocity + playerPosition);
 
+            Color[] c = new Color[1];
+            backgroundTexture.GetData(0, new Rectangle((int)playerPosition.X+400, (int)playerPosition.Y, 1, 1), c, 0, c.Length);
+            Color black = new Color(43, 42, 41);
+            Color white = new Color(254, 254, 254);
+            if (c[0] == black || c[0] == white)
+            {
+                lapChange = true;
+            }
+            else
+            {
+                if (lapChange && (DateTime.Now.Subtract(lastLapChange) > TimeSpan.FromSeconds(1)))
+                {
+                    lastLapChange = DateTime.Now;
+                    lap++;
+                }
+                lapChange = false;
+            }
+
             firstAi.CalculatePosition(backgroundTexture);
 
             camera.Update(gameTime, playerPosition, playerRectangle);
@@ -212,6 +238,14 @@ namespace Projekt_zespolowy_XNA
             spriteBatch.Draw(firstAiTexture, firstAi.position, null, Color.White, firstAi.rotation, firstAiOrigin, 1f, SpriteEffects.None, 0);
             //Rysowanie tekstury i ustawianie koloru na transparentny, rotacji, centralna czêœæ obrazka, bez efektów
             spriteBatch.Draw(playerTexture, playerPosition, null, Color.White, playerRotation, playerOrigin, 1f, SpriteEffects.None, 0);
+            //Informacje o przebiegu gry
+            int internalLap = lap;
+            if (internalLap < 1)
+            {
+                internalLap = 1;
+            }
+            spriteBatch.DrawString(font, "Okr¹¿enie: " + internalLap.ToString() + " z " + maxlap.ToString(), new Vector2(playerPosition.X + 300, playerPosition.Y - 100), Color.White);
+            spriteBatch.DrawString(font, "Czas: " + gameTime.TotalGameTime.Minutes.ToString() + ":" + gameTime.TotalGameTime.Seconds.ToString() + "." + gameTime.TotalGameTime.Milliseconds.ToString(), new Vector2(playerPosition.X + 300, playerPosition.Y - 80), Color.White);
             spriteBatch.End();
 
             base.Draw(gameTime);
