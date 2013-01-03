@@ -48,18 +48,19 @@ C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Pro
 C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Projekt zespolowy XNA.exe
 C:\Users\Marcin Buczkowski\Desktop\Gra - Projekt\Bandy\Projekt zespolowy XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Projekt zespolowy XNA.pdb
-C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\background.xnb
 C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\auto.xnb
 C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\auto2.xnb
 C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\droga.xnb
 C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\trasa.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\przeciwnik.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\przeciwnik2.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\przeciwnik3.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\background.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\SpriteFont.xnb
 C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Projekt zespolowy XNA.exe
 C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Projekt zespolowy XNA.pdb
 C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Projekt zespolowy XNA.exe
 C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\obj\x86\Debug\Projekt zespolowy XNA.pdb
-C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\przeciwnik.xnb
-C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\przeciwnik2.xnb
-C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\przeciwnik3.xnb
-C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\SpriteFont.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Projekt zespolowy XNA\Projekt zespolowy XNA\bin\x86\Debug\Content\map.xnb

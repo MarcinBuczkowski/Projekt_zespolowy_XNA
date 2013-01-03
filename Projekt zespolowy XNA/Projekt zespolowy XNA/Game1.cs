@@ -45,6 +45,7 @@ namespace Projekt_zespolowy_XNA
         private Camera camera;
         private Texture2D backgroundTexture;
         private Vector2 backgroundPosition;
+        private Texture2D mapTexture;
 
         private Boolean playerCollision = false;
 
@@ -94,9 +95,11 @@ namespace Projekt_zespolowy_XNA
 
             firstAiTexture = Content.Load<Texture2D>("przeciwnik");
 
-            backgroundTexture = Content.Load<Texture2D>("trasa");
+            backgroundTexture = Content.Load<Texture2D>("background");
             //Po³o¿enie wyœwietlanej trasy
             backgroundPosition = new Vector2(-400, 0);
+
+            mapTexture = Content.Load<Texture2D>("map");
 
             mapTextureData = new Color[backgroundTexture.Width * backgroundTexture.Height];
             backgroundTexture.GetData(mapTextureData);
@@ -235,20 +238,53 @@ namespace Projekt_zespolowy_XNA
                 camera.transform);
 
             spriteBatch.Draw(backgroundTexture, backgroundPosition, Color.White);
+            
+
             spriteBatch.Draw(firstAiTexture, firstAi.position, null, Color.White, firstAi.rotation, firstAiOrigin, 1f, SpriteEffects.None, 0);
+
             //Rysowanie tekstury i ustawianie koloru na transparentny, rotacji, centralna czêœæ obrazka, bez efektów
             spriteBatch.Draw(playerTexture, playerPosition, null, Color.White, playerRotation, playerOrigin, 1f, SpriteEffects.None, 0);
+
             //Informacje o przebiegu gry
+            Vector2 mapPos = new Vector2(playerPosition.X + 300, playerPosition.Y - 180);
+
+            spriteBatch.Draw(mapTexture, mapPos, Color.White);
+
+            int markX = (mapTexture.Width * (int)playerPosition.X) / backgroundTexture.Width;
+            int markY = (mapTexture.Height * (int)playerPosition.Y) / backgroundTexture.Height;
+            Vector2 markPos = new Vector2(mapPos.X + markX + 9, mapPos.Y + markY - 1);
+            spriteBatch.Draw(mapMark(Color.Blue), markPos, Color.White);
+
+            markX = (mapTexture.Width * (int)firstAi.position.X) / backgroundTexture.Width;
+            markY = (mapTexture.Height * (int)firstAi.position.Y) / backgroundTexture.Height;
+            markPos = new Vector2(mapPos.X + markX + 9, mapPos.Y + markY - 1);
+            spriteBatch.Draw(mapMark(Color.Red), markPos, Color.White);
+
             int internalLap = lap;
             if (internalLap < 1)
             {
                 internalLap = 1;
             }
-            spriteBatch.DrawString(font, "Okr¹¿enie: " + internalLap.ToString() + " z " + maxlap.ToString(), new Vector2(playerPosition.X + 300, playerPosition.Y - 100), Color.White);
+            spriteBatch.DrawString(font, "Ok¹¿enie: " + internalLap.ToString() + " z " + maxlap.ToString(), new Vector2(playerPosition.X + 300, playerPosition.Y - 100), Color.White);
+
             spriteBatch.DrawString(font, "Czas: " + gameTime.TotalGameTime.Minutes.ToString() + ":" + gameTime.TotalGameTime.Seconds.ToString() + "." + gameTime.TotalGameTime.Milliseconds.ToString(), new Vector2(playerPosition.X + 300, playerPosition.Y - 80), Color.White);
             spriteBatch.End();
 
             base.Draw(gameTime);
+        }
+
+        private Texture2D mapMark(Color c)
+        {
+            Texture2D rect = new Texture2D(graphics.GraphicsDevice, 5, 5);
+
+            Color[] data = new Color[25];
+            for (int i = 0; i < data.Length; ++i)
+            {
+                data[i] = c;
+            }
+            rect.SetData(data);
+
+            return rect;
         }
     }
 }
