@@ -1,0 +1,122 @@
+C:\Users\Damian\Documents\Visual Studio 2010\Projects\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Racing Game.exe
+C:\Users\Damian\Documents\Visual Studio 2010\Projects\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Racing Game.pdb
+C:\Users\Damian\Documents\Visual Studio 2010\Projects\Racing Game\Racing Game\Racing Game\obj\x86\Debug\Racing Game.csprojResolveAssemblyReference.cache
+C:\Users\Damian\Documents\Visual Studio 2010\Projects\Racing Game\Racing Game\Racing Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Damian\Documents\Visual Studio 2010\Projects\Racing Game\Racing Game\Racing Game\obj\x86\Debug\Racing Game.exe
+C:\Users\Damian\Documents\Visual Studio 2010\Projects\Racing Game\Racing Game\Racing Game\obj\x86\Debug\Racing Game.pdb
+C:\Users\Damian\Documents\Visual Studio 2010\Projects\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\menu.xnb
+C:\Users\Damian\Documents\Visual Studio 2010\Projects\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\play.xnb
+C:\Users\Damian\Documents\Visual Studio 2010\Projects\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\auto.xnb
+C:\Users\Damian\Documents\Visual Studio 2010\Projects\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\auto2.xnb
+C:\Users\Damian\Documents\Visual Studio 2010\Projects\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\background.xnb
+C:\Users\Damian\Documents\Visual Studio 2010\Projects\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\bandy.xnb
+C:\Users\Damian\Documents\Visual Studio 2010\Projects\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\droga.xnb
+C:\Users\Damian\Documents\Visual Studio 2010\Projects\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\map.xnb
+C:\Users\Damian\Documents\Visual Studio 2010\Projects\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik.xnb
+C:\Users\Damian\Documents\Visual Studio 2010\Projects\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik2.xnb
+C:\Users\Damian\Documents\Visual Studio 2010\Projects\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik3.xnb
+C:\Users\Damian\Documents\Visual Studio 2010\Projects\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\trasa.xnb
+C:\Users\Damian\Documents\Visual Studio 2010\Projects\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\SpriteFont.xnb
+C:\Users\Damian\Documents\Visual Studio 2010\Projects\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\SpriteFont2.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\auto.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\auto2.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\background.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\bandy.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\droga.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\map.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik2.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik3.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\trasa.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\SpriteFont.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\SpriteFont2.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Racing Game.exe
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Racing Game.pdb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\obj\x86\Debug\Racing Game.csprojResolveAssemblyReference.cache
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\obj\x86\Debug\Racing Game.exe
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\obj\x86\Debug\Racing Game.pdb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\menugry.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\tor1mini.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\tor2.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\tor2mini.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\tor3.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing Game\bin\x86\Debug\Content\tor3mini.xnb
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\auto.xnb
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\auto2.xnb
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\background.xnb
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\bandy.xnb
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\droga.xnb
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\map.xnb
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik.xnb
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik2.xnb
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik3.xnb
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\trasa.xnb
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\menugry.xnb
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\tor1mini.xnb
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\tor2.xnb
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\tor2mini.xnb
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\tor3.xnb
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\tor3mini.xnb
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\SpriteFont.xnb
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\SpriteFont2.xnb
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Racing Game.exe
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Racing Game.pdb
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\obj\x86\Debug\Racing Game.csprojResolveAssemblyReference.cache
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\obj\x86\Debug\Racing Game.exe
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\obj\x86\Debug\Racing Game.pdb
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\map2.xnb
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\map3.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\auto.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\auto2.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\background.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\bandy.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\droga.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\map.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik2.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik3.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\trasa.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\menugry.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\tor1mini.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\tor2.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\tor2mini.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\tor3.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\tor3mini.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\map2.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\map3.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\SpriteFont.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Content\SpriteFont2.xnb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Racing Game.exe
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\bin\x86\Debug\Racing Game.pdb
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\obj\x86\Debug\Racing Game.csprojResolveAssemblyReference.cache
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\obj\x86\Debug\Racing Game.exe
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing Game\obj\x86\Debug\Racing Game.pdb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\auto.xnb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\auto2.xnb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\background.xnb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\bandy.xnb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\droga.xnb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\map.xnb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik.xnb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik2.xnb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik3.xnb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\trasa.xnb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\menugry.xnb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\tor1mini.xnb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\tor2.xnb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\tor2mini.xnb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\tor3.xnb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\tor3mini.xnb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\map2.xnb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\map3.xnb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\SpriteFont.xnb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\SpriteFont2.xnb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Racing Game.exe
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Racing Game.pdb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\obj\x86\Debug\Racing Game.exe
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\obj\x86\Debug\Racing Game.pdb

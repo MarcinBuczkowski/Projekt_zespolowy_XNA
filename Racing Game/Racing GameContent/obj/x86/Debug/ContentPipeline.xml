@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>auto.png</Source>
+      <Name>auto</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\auto.xnb</Output>
+      <Time>2013-01-08T18:12:41.2966764+01:00</Time>
+    </Item>
+    <Item>
+      <Source>auto2.png</Source>
+      <Name>auto2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\auto2.xnb</Output>
+      <Time>2013-01-08T18:12:41.2966764+01:00</Time>
+    </Item>
+    <Item>
+      <Source>background.png</Source>
+      <Name>background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\background.xnb</Output>
+      <Time>2013-01-08T18:12:41.3122765+01:00</Time>
+    </Item>
+    <Item>
+      <Source>bandy.png</Source>
+      <Name>bandy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\bandy.xnb</Output>
+      <Time>2013-01-08T18:12:41.3122765+01:00</Time>
+    </Item>
+    <Item>
+      <Source>droga.png</Source>
+      <Name>droga</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\droga.xnb</Output>
+      <Time>2013-01-08T18:12:41.3122765+01:00</Time>
+    </Item>
+    <Item>
+      <Source>map.png</Source>
+      <Name>map</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\map.xnb</Output>
+      <Time>2013-01-08T18:12:41.3122765+01:00</Time>
+    </Item>
+    <Item>
+      <Source>przeciwnik.png</Source>
+      <Name>przeciwnik</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik.xnb</Output>
+      <Time>2013-01-08T18:12:41.3122765+01:00</Time>
+    </Item>
+    <Item>
+      <Source>przeciwnik2.png</Source>
+      <Name>przeciwnik2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik2.xnb</Output>
+      <Time>2013-01-08T18:12:41.3122765+01:00</Time>
+    </Item>
+    <Item>
+      <Source>przeciwnik3.png</Source>
+      <Name>przeciwnik3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik3.xnb</Output>
+      <Time>2013-01-08T18:12:41.3122765+01:00</Time>
+    </Item>
+    <Item>
+      <Source>trasa.png</Source>
+      <Name>trasa</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\trasa.xnb</Output>
+      <Time>2013-01-08T18:12:41.3122765+01:00</Time>
+    </Item>
+    <Item>
+      <Source>menugry.png</Source>
+      <Name>menugry</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\menugry.xnb</Output>
+      <Time>2013-01-14T16:24:55.2166788+01:00</Time>
+    </Item>
+    <Item>
+      <Source>tor1mini.png</Source>
+      <Name>tor1mini</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\tor1mini.xnb</Output>
+      <Time>2013-01-14T16:39:06.4482343+01:00</Time>
+    </Item>
+    <Item>
+      <Source>tor2.png</Source>
+      <Name>tor2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\tor2.xnb</Output>
+      <Time>2013-01-14T16:44:25.0551104+01:00</Time>
+    </Item>
+    <Item>
+      <Source>tor2mini.png</Source>
+      <Name>tor2mini</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\tor2mini.xnb</Output>
+      <Time>2013-01-14T16:44:25.0580391+01:00</Time>
+    </Item>
+    <Item>
+      <Source>tor3.png</Source>
+      <Name>tor3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\tor3.xnb</Output>
+      <Time>2013-01-14T16:44:25.0619457+01:00</Time>
+    </Item>
+    <Item>
+      <Source>tor3mini.png</Source>
+      <Name>tor3mini</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\tor3mini.xnb</Output>
+      <Time>2013-01-14T16:44:25.0638988+01:00</Time>
+    </Item>
+    <Item>
+      <Source>map2.png</Source>
+      <Name>map2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\map2.xnb</Output>
+      <Time>2013-01-15T17:20:05.2323601+01:00</Time>
+    </Item>
+    <Item>
+      <Source>map3.png</Source>
+      <Name>map3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\map3.xnb</Output>
+      <Time>2013-01-15T17:23:59.6938867+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont.spritefont</Source>
+      <Name>SpriteFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\SpriteFont.xnb</Output>
+      <Time>2013-01-08T18:12:41.3122765+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont2.spritefont</Source>
+      <Name>SpriteFont2</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\SpriteFont2.xnb</Output>
+      <Time>2013-01-15T17:44:15.0491443+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing GameContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing GameContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-12-09T18:32:26.5159683+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

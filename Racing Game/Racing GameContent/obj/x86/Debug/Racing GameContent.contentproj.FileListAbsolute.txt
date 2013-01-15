@@ -1,0 +1,5 @@
+C:\Users\Damian\Documents\Visual Studio 2010\Projects\Racing Game\Racing Game\Racing GameContent\obj\x86\Debug\Racing GameContent.contentprojResolveAssemblyReference.cache
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\Racing GameContent\obj\x86\Debug\Racing GameContent.contentprojResolveAssemblyReference.cache
+C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing GameContent\obj\x86\Debug\Racing GameContent.contentprojResolveAssemblyReference.cache
+C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing GameContent\obj\x86\Debug\Racing GameContent.contentprojResolveAssemblyReference.cache
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing GameContent\obj\x86\Debug\ResolveAssemblyReference.cache
