@@ -93,23 +93,29 @@ namespace Racing_Game
                     {
                         CurrentGameState = GameState.Playing;
                        
-                        win.LoadContent(Content, back1,mini1);
+                        win.LoadContent(Content, back1, mini1, this);
+
+                        btnPlay.isClicked = false;
                     }
                     btnPlay.Update(mouse);
 
                     if (btntor2.isClicked == true)
                     {
                         CurrentGameState = GameState.Playing;
-                        
-                        win.LoadContent(Content, back2,mini2);
+
+                        win.LoadContent(Content, back2, mini2, this);
+
+                        btntor2.isClicked = false;
                     }
                         btntor2.Update(mouse);
 
                         if (btntor3.isClicked == true)
                         {
                             CurrentGameState = GameState.Playing;
-                            
-                            win.LoadContent(Content, back3,mini3);
+
+                            win.LoadContent(Content, back3, mini3, this);
+
+                            btntor3.isClicked = false;
                         }
                         btntor3.Update(mouse);
                     
@@ -145,6 +151,14 @@ namespace Racing_Game
                     break;
             }
             base.Draw(gameTime);
+        }
+
+        public void ReturnToMenu()
+        {
+            CurrentGameState = GameState.MainMenu;
+            win.Exit();
+            win.Dispose();
+            win = new Race_Window();
         }
     }
 }

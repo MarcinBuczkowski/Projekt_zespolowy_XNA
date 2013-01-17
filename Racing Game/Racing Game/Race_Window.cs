@@ -23,13 +23,13 @@ namespace Racing_Game
         private enum Dest { North, East, South, West };
         private Dest playerDestination;
 
-        private AI firstAi = new AI(new Vector2(350, 211), 6f);
+        private AI firstAi = new AI(new Vector2(350, 211), 5f);
         private Color[] firstAiTextureData;
         private Vector2 firstAiOrigin;
         private Texture2D firstAiTexture;
         private Rectangle firstAiRectangle;
 
-        private AI secondAi = new AI(new Vector2(350, 377), 5f);
+        private AI secondAi = new AI(new Vector2(350, 377), 4f);
         private Color[] secondAiTextureData;
         private Vector2 secondAiOrigin;
         private Texture2D secondAiTexture;
@@ -47,7 +47,7 @@ namespace Racing_Game
         private Vector2 playerVelocity;
 
         //Ustalenie prędkości pojazdu
-        private const float playerTangentialVelocity = 7f;
+        private const float playerTangentialVelocity = 6f;
         //Ustalenie długości poślizgu do zatrzymania
         private float friction = 0.1f;
 
@@ -60,10 +60,13 @@ namespace Racing_Game
 
         private SpriteFont font;
         private SpriteFont font2;
+        private SpriteFont font3;
         private int lap = 0;
         private int maxlap = 3;
         private bool lapChange = false;
         private DateTime lastLapChange = DateTime.Now.Subtract(TimeSpan.FromMinutes(10));
+
+        Game1 _parent;
 
         protected override void Initialize()
         {
@@ -71,8 +74,10 @@ namespace Racing_Game
             base.Initialize();
         }
 
-        public void LoadContent(ContentManager Content,Texture2D tex1, Texture2D tex2)
+        public void LoadContent(ContentManager Content,Texture2D tex1, Texture2D tex2, Game1 parent)
         {
+            this._parent = parent;
+
             playerTexture = Content.Load<Texture2D>("auto");
             //Pozycja samochodu na trasie
             playerPosition = new Vector2(360, 294);
@@ -101,6 +106,7 @@ namespace Racing_Game
 
             font = Content.Load<SpriteFont>("SpriteFont");
             font2 = Content.Load<SpriteFont>("SpriteFont2");
+            font3 = Content.Load<SpriteFont>("SpriteFont3");
         }
 
         public void Update(GameTime gameTime, Camera camera)
@@ -143,6 +149,10 @@ namespace Racing_Game
                 secondAi.CalculatePosition(backgroundTexture);
                 camera.Update(gameTime, playerPosition, playerRectangle);
                 
+            }
+            else if (lap > maxlap || firstAi.lap > maxlap || secondAi.lap > maxlap)
+            {
+                ; // Nie robimy nic, gdy wyścig został wygrany
             }
             else if (clock.isFinished == true)
             {
@@ -277,7 +287,7 @@ namespace Racing_Game
 
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch,GraphicsDeviceManager graphics)
         {
-            if (!clock.isFinished)
+            if (!clock.isFinished || lap == maxlap || firstAi.lap == maxlap || secondAi.lap == maxlap)
             {
                 spriteBatch.Draw(backgroundTexture, backgroundPosition, Color.White);
 
@@ -288,7 +298,26 @@ namespace Racing_Game
                 //Rysowanie tekstury i ustawianie koloru na transparentny, rotacji, centralna część obrazka, bez efektów
                 spriteBatch.Draw(playerTexture, playerPosition, null, Color.White, playerRotation, playerOrigin, 1f, SpriteEffects.None, 0);
 
-                spriteBatch.DrawString(font2, clock.displayClock, new Vector2(300, 200), Color.Gold);
+                if (!clock.isFinished)
+                {
+                    spriteBatch.DrawString(font2, clock.displayClock, new Vector2(300, 200), Color.Gold);
+                }
+                else if (lap > maxlap)
+                {
+                    spriteBatch.DrawString(font3, "Wygrałeś!", new Vector2(250, 320), Color.Gold);
+                    if (DateTime.Now.Subtract(lastLapChange) > TimeSpan.FromSeconds(5))
+                    {
+                        this._parent.ReturnToMenu();
+                    }
+                }
+                else
+                {
+                    spriteBatch.DrawString(font3, "Przegrałeś.", new Vector2(250, 320), Color.Gold);
+                    if (DateTime.Now.Subtract(lastLapChange) > TimeSpan.FromSeconds(5))
+                    {
+                        this._parent.ReturnToMenu();
+                    }
+                }
             }
             else
             {
@@ -329,9 +358,7 @@ namespace Racing_Game
                 }
                 spriteBatch.DrawString(font, "Okążenie: " + internalLap.ToString() + " z " + maxlap.ToString(), new Vector2(playerPosition.X + 300, playerPosition.Y - 100), Color.White);
 
-                spriteBatch.DrawString(font, "Czas: " + gameTime.TotalGameTime.Minutes.ToString() + ":" + (gameTime.TotalGameTime.Seconds-3).ToString() + "." + gameTime.TotalGameTime.Milliseconds.ToString(), new Vector2(playerPosition.X + 300, playerPosition.Y - 80), Color.White);
-
-                spriteBatch.DrawString(font, "Kierunek: " + playerDestination.ToString(), new Vector2(playerPosition.X + 300, playerPosition.Y - 60), Color.White);
+                spriteBatch.DrawString(font, "Czas: " + gameTime.TotalGameTime.Minutes.ToString() + ":" + (gameTime.TotalGameTime.Seconds - 3).ToString() + "." + gameTime.TotalGameTime.Milliseconds.ToString(), new Vector2(playerPosition.X + 300, playerPosition.Y - 80), Color.White);
 
             }
             base.Draw(gameTime);

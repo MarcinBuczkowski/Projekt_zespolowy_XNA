@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\auto.xnb</Output>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\auto.xnb</Output>
       <Time>2013-01-08T18:12:41.2966764+01:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\auto2.xnb</Output>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\auto2.xnb</Output>
       <Time>2013-01-08T18:12:41.2966764+01:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\background.xnb</Output>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\background.xnb</Output>
       <Time>2013-01-08T18:12:41.3122765+01:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\bandy.xnb</Output>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\bandy.xnb</Output>
       <Time>2013-01-08T18:12:41.3122765+01:00</Time>
     </Item>
     <Item>
@@ -43,7 +43,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\droga.xnb</Output>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\droga.xnb</Output>
       <Time>2013-01-08T18:12:41.3122765+01:00</Time>
     </Item>
     <Item>
@@ -52,7 +52,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\map.xnb</Output>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\map.xnb</Output>
       <Time>2013-01-08T18:12:41.3122765+01:00</Time>
     </Item>
     <Item>
@@ -61,7 +61,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik.xnb</Output>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik.xnb</Output>
       <Time>2013-01-08T18:12:41.3122765+01:00</Time>
     </Item>
     <Item>
@@ -70,7 +70,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik2.xnb</Output>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik2.xnb</Output>
       <Time>2013-01-08T18:12:41.3122765+01:00</Time>
     </Item>
     <Item>
@@ -79,7 +79,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik3.xnb</Output>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik3.xnb</Output>
       <Time>2013-01-08T18:12:41.3122765+01:00</Time>
     </Item>
     <Item>
@@ -88,7 +88,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\trasa.xnb</Output>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\trasa.xnb</Output>
       <Time>2013-01-08T18:12:41.3122765+01:00</Time>
     </Item>
     <Item>
@@ -97,7 +97,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\menugry.xnb</Output>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\menugry.xnb</Output>
       <Time>2013-01-14T16:24:55.2166788+01:00</Time>
     </Item>
     <Item>
@@ -106,7 +106,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\tor1mini.xnb</Output>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\tor1mini.xnb</Output>
       <Time>2013-01-14T16:39:06.4482343+01:00</Time>
     </Item>
     <Item>
@@ -115,7 +115,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\tor2.xnb</Output>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\tor2.xnb</Output>
       <Time>2013-01-14T16:44:25.0551104+01:00</Time>
     </Item>
     <Item>
@@ -124,7 +124,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\tor2mini.xnb</Output>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\tor2mini.xnb</Output>
       <Time>2013-01-14T16:44:25.0580391+01:00</Time>
     </Item>
     <Item>
@@ -133,7 +133,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\tor3.xnb</Output>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\tor3.xnb</Output>
       <Time>2013-01-14T16:44:25.0619457+01:00</Time>
     </Item>
     <Item>
@@ -142,7 +142,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\tor3mini.xnb</Output>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\tor3mini.xnb</Output>
       <Time>2013-01-14T16:44:25.0638988+01:00</Time>
     </Item>
     <Item>
@@ -151,7 +151,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\map2.xnb</Output>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\map2.xnb</Output>
       <Time>2013-01-15T17:20:05.2323601+01:00</Time>
     </Item>
     <Item>
@@ -160,7 +160,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\map3.xnb</Output>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\map3.xnb</Output>
       <Time>2013-01-15T17:23:59.6938867+01:00</Time>
     </Item>
     <Item>
@@ -169,7 +169,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\SpriteFont.xnb</Output>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\SpriteFont.xnb</Output>
       <Time>2013-01-08T18:12:41.3122765+01:00</Time>
     </Item>
     <Item>
@@ -178,8 +178,17 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\SpriteFont2.xnb</Output>
-      <Time>2013-01-15T17:44:15.0491443+01:00</Time>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\SpriteFont2.xnb</Output>
+      <Time>2013-01-17T21:50:30.2170046+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont3.spritefont</Source>
+      <Name>SpriteFont3</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\SpriteFont3.xnb</Output>
+      <Time>2013-01-17T21:57:49.9561562+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -187,10 +196,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing GameContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing GameContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing GameContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing GameContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

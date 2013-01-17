@@ -120,3 +120,31 @@ C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\obj\x86\Debug\Resolve
 C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\obj\x86\Debug\Racing Game.exe
 C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\obj\x86\Debug\Racing Game.pdb
+C:\Users\pawel\Desktop\Racing game\Racing Game\Racing Game\bin\x86\Debug\Content\SpriteFont3.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\auto.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\auto2.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\background.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\bandy.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\droga.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\map.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik2.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\przeciwnik3.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\trasa.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\menugry.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\tor1mini.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\tor2.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\tor2mini.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\tor3.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\tor3mini.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\map2.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\map3.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\SpriteFont.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\SpriteFont2.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\SpriteFont3.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Racing Game.exe
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Racing Game.pdb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\obj\x86\Debug\Racing Game.exe
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\obj\x86\Debug\Racing Game.pdb
