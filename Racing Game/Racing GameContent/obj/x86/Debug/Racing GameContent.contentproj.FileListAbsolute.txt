@@ -4,3 +4,6 @@ C:\Users\Damian\Downloads\Nowy folder\Racing Game\Racing GameContent\obj\x86\Deb
 C:\Users\Marcin Buczkowski\Desktop\Projekt_zespolowy_XNA-master\Nowy folder\Racing Game\Racing GameContent\obj\x86\Debug\Racing GameContent.contentprojResolveAssemblyReference.cache
 C:\Users\pawel\Desktop\Racing game\Racing Game\Racing GameContent\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing GameContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Damian\Downloads\GRA\Projekt_zespolowy_XNA-master\Racing Game\Racing GameContent\obj\x86\Debug\Racing GameContent.contentprojResolveAssemblyReference.cache
+C:\Users\Marcin Buczkowski\Desktop\GRA\GRA\Projekt_zespolowy_XNA-master\Racing Game\Racing GameContent\obj\x86\Debug\Racing GameContent.contentprojResolveAssemblyReference.cache
+C:\Users\Marcin Buczkowski\Desktop\GRA\Racing Game\Racing GameContent\obj\x86\Debug\Racing GameContent.contentprojResolveAssemblyReference.cache

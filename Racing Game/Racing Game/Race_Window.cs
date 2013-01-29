@@ -227,6 +227,70 @@ namespace Racing_Game
                     }
                 }
 
+                if (playerRectangle.Intersects(firstAiRectangle))
+                {
+                    if (Collisions.IntersectPixels(playerTransform, playerTexture.Width, playerTexture.Height, playerTextureData, firstAiTransform, firstAiTexture.Width, firstAiTexture.Height, firstAiTextureData))
+                    {
+                        if (playerDestination == Dest.East)
+                        {
+                            float tmp = (playerVelocity.X + (float)1);
+                            playerVelocity.X = (playerVelocity.X + tmp);
+                            this.playerCollision = true;
+                        }
+                        if (playerDestination == Dest.South)
+                        {
+                            float tmp = (playerVelocity.Y - (float)1);
+                            playerVelocity.Y = (playerVelocity.Y + tmp);
+                            this.playerCollision = true;
+                        }
+                        if (playerDestination == Dest.West)
+                        {
+                            float tmp = (playerVelocity.X - (float)1);
+                            playerVelocity.X = (playerVelocity.X + tmp);
+                            this.playerCollision = true;
+                        }
+                        if (playerDestination == Dest.North)
+                        {
+                            float tmp = (playerVelocity.Y + (float)1);
+                            playerVelocity.Y = (playerVelocity.Y + tmp);
+                            this.playerCollision = true;
+                        }
+                    }
+                }
+
+
+                if (playerRectangle.Intersects(secondAiRectangle))
+                {
+                    if (Collisions.IntersectPixels(playerTransform, playerTexture.Width, playerTexture.Height, playerTextureData, secondAiTransform, secondAiTexture.Width, secondAiTexture.Height, secondAiTextureData))
+                    {
+                        if (playerDestination == Dest.East)
+                        {
+                            float tmp = (playerVelocity.X + (float)1);
+                            playerVelocity.X = (playerVelocity.X + tmp);
+                            this.playerCollision = true;
+                        }
+                        if (playerDestination == Dest.South)
+                        {
+                            float tmp = (playerVelocity.Y - (float)1);
+                            playerVelocity.Y = (playerVelocity.Y + tmp);
+                            this.playerCollision = true;
+                        }
+                        if (playerDestination == Dest.West)
+                        {
+                            float tmp = (playerVelocity.X - (float)1);
+                            playerVelocity.X = (playerVelocity.X + tmp);
+                            this.playerCollision = true;
+                        }
+                        if (playerDestination == Dest.North)
+                        {
+                            float tmp = (playerVelocity.Y + (float)1);
+                            playerVelocity.Y = (playerVelocity.Y + tmp);
+                            this.playerCollision = true;
+                        }
+                    }
+                }
+
+
                 if (Collisions.Intersect(playerTransform, playerTexture.Width, playerTexture.Height, playerTextureData, mapTransform, backgroundTexture.Width, backgroundTexture.Height, mapTextureData))
                 {
                     playerVelocity.X = -playerVelocity.X;

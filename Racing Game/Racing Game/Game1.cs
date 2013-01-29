@@ -13,6 +13,7 @@ namespace Racing_Game
 {
     public class Game1 : Microsoft.Xna.Framework.Game
     {
+        ClockTimer clock1 = new ClockTimer();
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
@@ -57,13 +58,13 @@ namespace Racing_Game
             IsMouseVisible = true;
 
             btnPlay = new cButton(Content.Load<Texture2D>("tor1mini"), graphics.GraphicsDevice);
-            btnPlay.setPosition(new Vector2(575, 60));
+            btnPlay.setPosition(new Vector2(60, 60));
 
             btntor2 = new cButton(Content.Load<Texture2D>("tor2mini"), graphics.GraphicsDevice);
-            btntor2.setPosition(new Vector2(575, 220));
+            btntor2.setPosition(new Vector2(60, 220));
 
             btntor3 = new cButton(Content.Load<Texture2D>("tor3mini"), graphics.GraphicsDevice);
-            btntor3.setPosition(new Vector2(575, 385));
+            btntor3.setPosition(new Vector2(60, 380));
 
             back1 = Content.Load<Texture2D>("background");
 
@@ -86,27 +87,33 @@ namespace Racing_Game
         protected override void Update(GameTime gameTime)
         {
             MouseState mouse = Mouse.GetState();
-            switch (CurrentGameState)
+            if (clock1.isRunning == false)
             {
-                case GameState.MainMenu:
-                    if (btnPlay.isClicked == true)
-                    {
-                        CurrentGameState = GameState.Playing;
-                       
-                        win.LoadContent(Content, back1, mini1, this);
+                clock1.start(3);
+            }
+            else if (clock1.isFinished==true)
+            {
+                switch (CurrentGameState)
+                {
+                    case GameState.MainMenu:
+                        if (btnPlay.isClicked == true)
+                        {
+                            CurrentGameState = GameState.Playing;
 
-                        btnPlay.isClicked = false;
-                    }
-                    btnPlay.Update(mouse);
+                            win.LoadContent(Content, back1, mini1, this);
 
-                    if (btntor2.isClicked == true)
-                    {
-                        CurrentGameState = GameState.Playing;
+                            btnPlay.isClicked = false;
+                        }
+                        btnPlay.Update(mouse);
 
-                        win.LoadContent(Content, back2, mini2, this);
+                        if (btntor2.isClicked == true)
+                        {
+                            CurrentGameState = GameState.Playing;
 
-                        btntor2.isClicked = false;
-                    }
+                            win.LoadContent(Content, back2, mini2, this);
+
+                            btntor2.isClicked = false;
+                        }
                         btntor2.Update(mouse);
 
                         if (btntor3.isClicked == true)
@@ -118,11 +125,16 @@ namespace Racing_Game
                             btntor3.isClicked = false;
                         }
                         btntor3.Update(mouse);
-                    
-                    break;
-                case GameState.Playing:
-                    win.Update(gameTime,camera);
-                    break;
+
+                        break;
+                    case GameState.Playing:
+                        win.Update(gameTime, camera);
+                        break;
+                }
+            }
+            else
+            {
+                clock1.checkTime(gameTime);
             }
             base.Update(gameTime);
         }
@@ -131,24 +143,33 @@ namespace Racing_Game
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
-            switch (CurrentGameState)
+            if (!clock1.isFinished)
             {
-                case GameState.MainMenu:
-                    spriteBatch.Begin();
-                    spriteBatch.Draw(Content.Load<Texture2D>("menugry"), new Rectangle(0, 0, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight), Color.White);
-                    btnPlay.Draw(spriteBatch);
-                    btntor2.Draw(spriteBatch);
-                    btntor3.Draw(spriteBatch);
-                    spriteBatch.End();
-                    break;
-                case GameState.Playing:
-                    spriteBatch.Begin(SpriteSortMode.Deferred,
-                BlendState.AlphaBlend,
-                null, null, null, null,
-                camera.transform);
-                    win.Draw(gameTime, spriteBatch, graphics);
-                    spriteBatch.End();
-                    break;
+                spriteBatch.Begin();
+                spriteBatch.Draw(Content.Load<Texture2D>("menugry"), new Rectangle(0, 0, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight), Color.White);
+                spriteBatch.End();
+            }
+            else 
+            {
+                switch (CurrentGameState)
+                {
+                    case GameState.MainMenu:
+                        spriteBatch.Begin();
+                        spriteBatch.Draw(Content.Load<Texture2D>("wyscig"), new Rectangle(0, 0, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight), Color.White);
+                        btnPlay.Draw(spriteBatch);
+                        btntor2.Draw(spriteBatch);
+                        btntor3.Draw(spriteBatch);
+                        spriteBatch.End();
+                        break;
+                    case GameState.Playing:
+                        spriteBatch.Begin(SpriteSortMode.Deferred,
+                    BlendState.AlphaBlend,
+                    null, null, null, null,
+                    camera.transform);
+                        win.Draw(gameTime, spriteBatch, graphics);
+                        spriteBatch.End();
+                        break;
+                }
             }
             base.Draw(gameTime);
         }
