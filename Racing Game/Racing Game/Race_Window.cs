@@ -115,9 +115,9 @@ namespace Racing_Game
             {
                 this.Exit();
             }
+            //Odliczanie rozpoczęte
             if (clock.isRunning == false)
             {
-                //count 3 seconds down 
                 clock.start(3);
                 //Gdy zegar odlicza porusznie zablokowane
                 Matrix mapTransform = Matrix.CreateTranslation(new Vector3(backgroundPosition, 0.0f));
@@ -258,7 +258,7 @@ namespace Racing_Game
                     }
                 }
 
-
+                //Kolizja z bandami
                 if (playerRectangle.Intersects(secondAiRectangle))
                 {
                     if (Collisions.IntersectPixels(playerTransform, playerTexture.Width, playerTexture.Height, playerTextureData, secondAiTransform, secondAiTexture.Width, secondAiTexture.Height, secondAiTextureData))

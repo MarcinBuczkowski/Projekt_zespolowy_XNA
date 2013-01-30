@@ -87,10 +87,12 @@ namespace Racing_Game
         protected override void Update(GameTime gameTime)
         {
             MouseState mouse = Mouse.GetState();
+            //Logo US siê  wyœwietla
             if (clock1.isRunning == false)
             {
                 clock1.start(3);
             }
+            //Koniec wyœwietlania loga mo¿na wybraæ odpowiedni¹ trasê  i graæ
             else if (clock1.isFinished==true)
             {
                 switch (CurrentGameState)
@@ -143,12 +145,14 @@ namespace Racing_Game
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
+            //Wyœwietlanie menu gry przez parê sekund (logo US)
             if (!clock1.isFinished)
             {
                 spriteBatch.Begin();
                 spriteBatch.Draw(Content.Load<Texture2D>("menugry"), new Rectangle(0, 0, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight), Color.White);
                 spriteBatch.End();
             }
+            //W³aœciwe menu gry
             else 
             {
                 switch (CurrentGameState)
