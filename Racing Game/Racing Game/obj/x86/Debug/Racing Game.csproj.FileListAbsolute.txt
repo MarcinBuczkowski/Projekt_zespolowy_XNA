@@ -204,3 +204,8 @@ C:\Users\Marcin Buczkowski\Desktop\GRA\GRA\Projekt_zespolowy_XNA-master\Racing G
 C:\Users\Marcin Buczkowski\Desktop\GRA\GRA\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Marcin Buczkowski\Desktop\GRA\GRA\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\obj\x86\Debug\Racing Game.exe
 C:\Users\Marcin Buczkowski\Desktop\GRA\GRA\Projekt_zespolowy_XNA-master\Racing Game\Racing Game\obj\x86\Debug\Racing Game.pdb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Content\wyscig.xnb
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Racing Game.exe.manifest
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\bin\x86\Debug\Racing Game.application
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\obj\x86\Debug\Racing Game.exe.manifest
+C:\Users\pawel\Documents\GitHub\Projekt_zespolowy_XNA\Racing Game\Racing Game\obj\x86\Debug\Racing Game.application

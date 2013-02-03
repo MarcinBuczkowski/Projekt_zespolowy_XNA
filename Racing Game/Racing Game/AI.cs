@@ -41,10 +41,16 @@ namespace Racing_Game
         // Czas ostatniej zmiany okrazenia - domyslnie 10 minut temu, aby przy pierwszym przejechaniu zmienic wartosc zmiennej
         private DateTime lastLapChange = DateTime.Now.Subtract(TimeSpan.FromMinutes(10));
 
+        // Flaga - wystąpienie kolizji
+        private bool _collision = false;
+
         // Odleglosc blizszych czujnikow
         private int nearerSensor = 150;
         // Odleglosc dalszych czujnikow
         private int furtherSensor = 210;
+
+        // Ustalenie dlugosci poslizgu do zatrzymania
+        private float friction = 0.1f;
 
         // Pozycja - pole publiczne
         public Vector2 position
@@ -100,6 +106,19 @@ namespace Racing_Game
             get
             {
                 return this.lastLapChange;
+            }
+        }
+
+        // Kolizja
+        public bool collision
+        {
+            get
+            {
+                return this._collision;
+            }
+            set
+            {
+                this._collision = value;
             }
         }
 
@@ -237,8 +256,20 @@ namespace Racing_Game
                 }
             }
 
+            // Jesli wystapila kolizja
+            if (collision)
+            {
+                if (velocity.X > -0.5 && velocity.X < 0.5 && velocity.Y > -0.5 && velocity.Y < 0.5)
+                {
+                    collision = false;
+                }
+                else
+                {
+                    velocity *= 1 - friction;
+                }
+            }
             // Jesli odkrylismy koniecznosc skretu...
-            if (rotatefirstAiLeft || rotatefirstAiRight)
+            else if (rotatefirstAiLeft || rotatefirstAiRight)
             {
                 // Jesli skrecamy w lewo...
                 if (rotatefirstAiLeft)

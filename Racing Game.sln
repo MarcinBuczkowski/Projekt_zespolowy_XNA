@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C# Express 2010
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Racing Game", "Racing Game\Racing Game\Racing Game.csproj", "{465F69CF-BBFA-4700-9B19-78499F5D20B3}"
 EndProject
-Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Racing GameContent", "Racing Game\Racing GameContent\Racing GameContent.contentproj", "{E8B21196-4EEB-4F37-8E92-D970E6D4C543}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Racing GameContent", "Racing Game\Racing GameContent\Racing GameContent.contentproj", "{E8B21196-4EEB-4F37-8E92-D970E6D4C543}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
