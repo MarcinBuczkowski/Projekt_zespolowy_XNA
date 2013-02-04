@@ -11,16 +11,19 @@ using Microsoft.Xna.Framework.Media;
 
 namespace Racing_Game
 {
+    //Klasa odpowiedzialna za wyswietlanie menu gry
     public class Game1 : Microsoft.Xna.Framework.Game
     {
+        //Deklaracja zmiennych
         ClockTimer clock1 = new ClockTimer();
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
         enum GameState{MainMenu,Options,Playing,}
-
+        //Obs³uga przycisków w menu
         GameState CurrentGameState = GameState.MainMenu;
 
+        //Przyciski wyboru torów
         cButton btnPlay;
         cButton btntor2;
         cButton btntor3;
@@ -42,7 +45,7 @@ namespace Racing_Game
 
         }
 
-       
+       //Inicjalizacja kamery
         protected override void Initialize()
         {
             camera = new Camera(GraphicsDevice.Viewport);
@@ -52,30 +55,26 @@ namespace Racing_Game
         
         protected override void LoadContent()
         {
-            // Create a new SpriteBatch, which can be used to draw textures.
+            //£adowanie odpowiednich grafik, które bêd¹ wyœwietlane
             spriteBatch = new SpriteBatch(GraphicsDevice);
             graphics.ApplyChanges();
             IsMouseVisible = true;
 
+            //Wczytanie tekstury i ustawienie pozycji przycisku toru nr 1
             btnPlay = new cButton(Content.Load<Texture2D>("tor1mini"), graphics.GraphicsDevice);
             btnPlay.setPosition(new Vector2(60, 60));
-
+            //Wczytanie tekstury i ustawienie pozycji przycisku toru nr 2
             btntor2 = new cButton(Content.Load<Texture2D>("tor2mini"), graphics.GraphicsDevice);
             btntor2.setPosition(new Vector2(60, 220));
-
+            //Wczytanie tekstury i ustawienie pozycji przycisku toru nr 3
             btntor3 = new cButton(Content.Load<Texture2D>("tor3mini"), graphics.GraphicsDevice);
             btntor3.setPosition(new Vector2(60, 380));
-
+            //Mapy torów i ich mini mapy, które s¹ przekazywane do klasy Race_Window
             back1 = Content.Load<Texture2D>("background");
-
             back2 = Content.Load<Texture2D>("tor2");
-
             back3 = Content.Load<Texture2D>("tor3");
-
             mini1 = Content.Load<Texture2D>("map");
-
             mini2 = Content.Load<Texture2D>("map2");
-
             mini3 = Content.Load<Texture2D>("map3");
         }
 
@@ -97,6 +96,7 @@ namespace Racing_Game
             {
                 switch (CurrentGameState)
                 {
+                    //Wybranie i wcztanie toru nr 1 z menu gry
                     case GameState.MainMenu:
                         if (btnPlay.isClicked == true)
                         {
@@ -108,6 +108,7 @@ namespace Racing_Game
                         }
                         btnPlay.Update(mouse);
 
+                        //Wybranie i wcztanie toru nr 2 z menu gry
                         if (btntor2.isClicked == true)
                         {
                             CurrentGameState = GameState.Playing;
@@ -117,6 +118,8 @@ namespace Racing_Game
                             btntor2.isClicked = false;
                         }
                         btntor2.Update(mouse);
+
+                        //Wybranie i wcztanie toru nr 3      z menu gry
 
                         if (btntor3.isClicked == true)
                         {
@@ -159,6 +162,7 @@ namespace Racing_Game
                 {
                     case GameState.MainMenu:
                         spriteBatch.Begin();
+                        //Narysowanie elementów menu
                         spriteBatch.Draw(Content.Load<Texture2D>("wyscig"), new Rectangle(0, 0, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight), Color.White);
                         btnPlay.Draw(spriteBatch);
                         btntor2.Draw(spriteBatch);
@@ -178,6 +182,7 @@ namespace Racing_Game
             base.Draw(gameTime);
         }
 
+        //Powrót do menu
         public void ReturnToMenu()
         {
             CurrentGameState = GameState.MainMenu;

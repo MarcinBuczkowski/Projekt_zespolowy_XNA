@@ -17,10 +17,12 @@ namespace Racing_Game
         private int endTimer;
         private int countTimerRef;
         public String displayClock { get; private set; }
+        //Zwraca prawdę lub fałsz czy rozpoczęło się odliczanie
         public bool isRunning { get; private set; }
+        //Zwraca prawdę lub fałsz czy zakończyło się odliczanie
         public bool isFinished { get; private set; }
 
-
+        //Ustalenie wyświetlania odliczania
         public ClockTimer()
         {
 
@@ -31,13 +33,16 @@ namespace Racing_Game
             isFinished = false;
 
         }
+        //Start odliczania
         public void start(int seconds)
         {
+            //Odliczamy w sekundach
             endTimer = seconds;
             isRunning = true;
             displayClock = endTimer.ToString();
         }
 
+        //Sprawdzenie odliczanego czasu
         public Boolean checkTime(GameTime gameTime)
         {
             countTimerRef += (int)gameTime.ElapsedGameTime.TotalMilliseconds;
@@ -48,6 +53,8 @@ namespace Racing_Game
                     endTimer = endTimer - 1;
                     displayClock = endTimer.ToString();
                     countTimerRef = 0;
+
+                    //Gdy timer odliczy do zera to koniec pracy timera
                     if (endTimer <= 0)
                     {
                         endTimer = 0;
@@ -63,6 +70,7 @@ namespace Racing_Game
             }
             return isFinished;
         }
+        //Reset timera
         public void reset()
         {
             isRunning = false;
